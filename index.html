@@ -1,0 +1,48 @@
+<!Doctype html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>"Carrinho de Compras"</title>
+        <link rel="stylesheet" href="css/stylesheet.css">
+ </head>
+ 
+ <body>
+     
+  <header>
+        <h1>Product <img src="css/imagens.carrinho"/></h1>
+     
+  </header>
+  <form class="p">
+	<fieldset>
+		<div class="info">
+				<label for="name">Name</label>
+				<input id="name" type="text" required>
+		</div>
+
+		<div class="info">
+				<label for="price">Price</label>
+				<input id="price" type="number" required>
+		</div>
+		
+		<div class="botao">
+				<button type="submit" class="botao">Add</button>
+		</div>
+	</fieldset>
+</form>
+<fieldset>
+    <legend>Shopping Cart</legend>
+    <ul section id="produtoLista">
+    </section>
+</fieldset>
+<fieldset>
+    <legend>Total</legend>
+</fieldset>
+
+	
+</section>
+
+<script src="js/ListService.js"></script>
+<script src="js/Controller.js"></script>
+
+</body>
+</html>
